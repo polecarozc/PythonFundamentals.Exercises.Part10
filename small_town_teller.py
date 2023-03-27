@@ -29,6 +29,7 @@ class bank:
     def balance_inquiry(self):
         print(self.bank_info[3])
 
+
 person1 = person(7698, "bob", "chob")
 person1_account = account(1001, "checking", "primary", 1000)
 small_bank = bank()
